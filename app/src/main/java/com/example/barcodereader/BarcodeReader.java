@@ -1,6 +1,6 @@
 /*
  * This example will read a barcode using the ZXing Barcode reader
- * which is available from the Android Market.
+ * which is available from the Android Play Store.
  */
 package com.example.barcodereader;
 
