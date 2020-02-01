@@ -15,8 +15,7 @@ import android.view.View.OnClickListener;
 public class BarcodeReader extends Activity implements OnClickListener {
 	
 	private Button button;
-	
-    /** Called when the activity is first created. */
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +24,7 @@ public class BarcodeReader extends Activity implements OnClickListener {
         button.setOnClickListener(this);
     }
     
-    public void onClick(View v) {
+    public void   onClick(View v) {
     	Intent intent = new Intent("com.google.zxing.client.android.SCAN");   
         intent.putExtra("com.google.zxing.client.android.SCAN.SCAN_MODE", "QR_CODE_MODE");
         startActivityForResult(intent, 0);
