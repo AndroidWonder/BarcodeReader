@@ -34,10 +34,11 @@ public class BarcodeReader extends Activity implements OnClickListener {
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
         if (requestCode == 0) {
             if (resultCode == Activity.RESULT_OK) {
+                // Handle successful scan
                 String contents = intent.getStringExtra("SCAN_RESULT");
                 String format = intent.getStringExtra("SCAN_RESULT_FORMAT");
                 Toast.makeText(this, contents, Toast.LENGTH_LONG).show();
-                // Handle successful scan
+
             } else if (resultCode == Activity.RESULT_CANCELED) {
                 // Handle cancel
             	Toast.makeText(this, "Scan Error", Toast.LENGTH_LONG).show();
