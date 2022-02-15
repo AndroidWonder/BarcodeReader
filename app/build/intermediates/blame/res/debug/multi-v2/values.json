@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Jim\\StudioProjects\\BarcodeReader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Jim\\StudioProjects\\BarcodeReader\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "107,57",
+                        "endColumns": "50,48",
+                        "endOffsets": "153,101"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,106",
+                        "endColumns": "50,48",
+                        "endOffsets": "101,150"
+                    }
+                }
+            ]
+        }
+    ]
+}
